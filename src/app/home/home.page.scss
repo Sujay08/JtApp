@@ -1,0 +1,51 @@
+ion-toolbar {
+  color: #fff;
+  --background: red;
+
+  ion-title {
+    font-weight: 600;
+  }
+}
+
+table {
+  width: 100%;
+
+  th {
+    background-color: #171717;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-right: 1px solid #171717;
+  }
+
+  th,
+  td {
+    padding: 20px 2px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+
+  td {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.9);
+
+    img {
+      max-width: 100%;
+      width: 13vw;
+      border-radius: 50%;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+.dashboard-stats{
+  border: 1px solid #000;
+  padding: 5vw 2vh;
+  text-align: center;
+
+  .stat-flex{
+    display: flex;
+    justify-content: space-around;
+  }
+}

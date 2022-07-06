@@ -1,0 +1,7 @@
+{
+  "name": "jtApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
