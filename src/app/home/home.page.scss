@@ -1,6 +1,6 @@
 ion-toolbar {
   color: #fff;
-  --background: red;
+  --background: #D02532;
 
   ion-title {
     font-weight: 600;
@@ -40,12 +40,44 @@ table {
 }
 
 .dashboard-stats{
-  border: 1px solid #000;
   padding: 5vw 2vh;
   text-align: center;
+  border-radius: 12px;
+  padding: 5vw 2vh;
+  text-align: center;
+  box-shadow: 0px 2px 13px 0px rgb(0 0 0 / 20%);
+  margin-top: 5vh;
 
   .stat-flex{
     display: flex;
     justify-content: space-around;
+  }
+
+  .matches-stat{
+    margin-bottom: 15px;
+  }
+  
+  h4{
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  p{
+    font-size: 24px;
+    color: #171717;
+    font-weight: 600;
+    margin: 0;
+  }
+}
+
+ion-fab{
+  ion-fab-button{
+    --background: #D02532 !important;
+  }
+  ion-fab-list{
+    ion-icon{
+      color: #fff;
+    }
   }
 }
