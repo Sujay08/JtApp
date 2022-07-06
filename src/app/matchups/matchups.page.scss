@@ -1,0 +1,59 @@
+.match-card {
+    text-align: center;
+    padding: 2vh 2vw;
+    border-radius: 8px;
+    box-shadow: 0px 2px 13px 0px rgb(0 0 0 / 20%);
+    margin-top: 5vh;
+    position: relative;
+
+    .m-no {
+        position: absolute;
+        left: 8px;
+        top: -20px;
+        font-weight: 600;
+    }
+
+    .action-view {
+        align-self: center;
+    }
+
+    .score {
+        color: #fff;
+        background: #D02532;
+        display: inline-block;
+        padding: 0.5vh 5vw;
+        border-radius: 17px;
+        font-weight: 600;
+        font-size: 15px;
+
+        .split {
+            margin: 0 11px;
+        }
+    }
+
+    h4 {
+        margin: 0;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .user {
+        position: relative;
+
+        .winner {
+            position: absolute;
+            width: 30px;
+            right: 5%;
+            top: -13%;
+            transform: rotate(45deg);
+        }
+    }
+
+    .user-img {
+        max-width: 100%;
+        width: 16vw;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        margin-bottom: 5px;
+    }
+}
