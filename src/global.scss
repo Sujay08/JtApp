@@ -26,15 +26,31 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 
-ion-content{
-    --background-color: #fff;
+ion-content {
+  --background-color: #fff;
 }
 
 ion-toolbar {
-    color: #fff;
-    --background: #D02532;
-  
-    ion-title {
-      font-weight: 600;
-    }
+  color: #fff;
+  --background: #D02532;
+
+  ion-title {
+    font-weight: 600;
   }
+}
+
+.success {
+  color: #2dd36f;
+}
+ 
+.danger {
+  color: #eb445a;
+}
+
+.primary {
+  color: #3880ff;
+}
+
+.dark{
+  color: #171717;
+}

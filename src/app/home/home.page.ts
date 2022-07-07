@@ -13,7 +13,7 @@ export class HomePage {
   ) {}
  
   ionViewDidEnter(){
-    this.router.navigateByUrl('/matchups')
+    this.router.navigateByUrl('/stats')
   }
 
 }

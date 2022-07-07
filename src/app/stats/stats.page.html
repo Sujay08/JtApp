@@ -1,9 +1,74 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>stats</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      All Time Stats
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12">
+        <div class="stat-card">
+          <img class="user-img"
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIF.Ja9ERBcUG4mPWOpTs8pZww%26pid%3DApi&f=1"
+                  alt="">
+          <div class="stat-flex">
+            <div class="single-stat">
+              <h4>
+                Matches Played
+              </h4>
+              <p class="dark">
+                48
+              </p>
+            </div>
+            <div class="single-stat">
+              <h4>
+                Matches Won
+              </h4>
+              <p class="success">
+                48
+              </p>
+            </div>
+            <div class="single-stat">
+              <h4>
+                Matches Lost
+              </h4>
+              <p class="danger">
+                48
+              </p>
+            </div>
+            <div class="single-stat">
+              <h4>
+                Goals Scored
+              </h4>
+              <p class="success">
+                48
+              </p>
+            </div>
+            <div class="single-stat">
+              <h4>
+                Goals Conceded
+              </h4>
+              <p class="danger">
+                48
+              </p>
+            </div>
+            <div class="single-stat">
+              <h4>
+                Clean Sheets
+              </h4>
+              <p class="primary">
+                48
+              </p>
+            </div>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
